@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'FuturaLT';
+    src: url('fonts/FuturaLT.woff2') format('woff2'),
+         url('fonts/FuturaLT.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fcfcfc;
+    background-image: url('pow.jpg'); 
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+}
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fcfcfc;
+    font-family: Arial, sans-serif;
+}*/
+   
+.business-card {
+    width: 864px; 
+    height: 451px; 
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, black 55%, #c69e61 45%);
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 15px 10px 17px rgb(4 4 4 / 30%);
+    
+    
+}
+
+.line {
+    width: 3.5px;
+    height: 171px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 77%;
+    transform: translateY(-50%);
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.logo {
+    width: 565px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: -53px;
+    left: 168px;
+}
+
+.qr {
+    width: 132px;
+    height: auto;
+    border: 5px solid #c69e61;
+    border-radius: 2%;
+    position: absolute;
+    top: 20px;
+    right: 746px;
+}
+
+.full{
+    width: 212px;
+    height: auto;
+    position: absolute;
+    top: 325px;
+    left: 20px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 225%;
+    letter-spacing: -1px;
+}
+.sound{
+    position: absolute;
+    top: 362px;
+    left: 20px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: FuturaLt, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 173%;
+    letter-spacing: -1px;
+}
+.front{
+    text-align: center;
+    position: absolute; 
+    margin-top: 20px; 
+    font-size: 31px;
+    margin: 0;
+    display: flex;
+    top: 42%;
+    bottom: 63%;
+    left: 6%;
+    right: 54%;
+    color: #c69e61;
+    font-family: FuturaLt, sans-serif;
+    white-space: nowrap;
+    letter-spacing: 15px;
+    font-weight: 10;
+}
+.mini{
+    text-align: center;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 15px;
+    margin: 0;
+    display: flex;
+    top: 50%;
+    bottom: 75%;
+    left: 19%;
+    right: 56%;
+    color: #fff;
+    font-family: FuturaLt, sans-serif;
+    white-space: nowrap;
+    letter-spacing: 8px;
+    font-weight: lighter;
+}
+.box{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: #050605;
+    color: #b5b5b5;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 60%;
+    bottom: 75%;
+    left: 58%;
+    transform: scale(0.9);
+}
+.box2{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: #050605;
+    color: #b5b5b5;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 73%;
+    bottom: 90%;
+    left: 58%;
+    transform: scale(0.9);
+        
+}
+.box3{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: #050605;
+    color: #b5b5b5;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 86%;
+    bottom: 100%;
+    left: 58%;
+    transform: scale(0.9);
+        
+}
+.globe {
+    width: 42px;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    top: 297px;
+    right: 349px;
+    background-color: #c69e61;
+}
+
+.loc{
+    width: 42px;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    top: 357px;
+    right: 349px;
+    background-color: #c69e61;
+}
+
+.tel{
+    width: 42px;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    top: 419px;
+    right: 349px;
+    background-color: #c69e61;
+}
+.number{
+    position: absolute;
+    top: 279px;
+    left: 586px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: FuturaLt, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 165%;
+    letter-spacing: -1px;
+}
+
+.email{
+    position: absolute;
+    top: 339px;
+    left: 586px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: FuturaLt, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 160%;
+    letter-spacing: -1px;
+}
+.address{
+    position: absolute;
+    top: 399px;
+    left: 586px;
+    text-align: left;
+    white-space: nowrap;
+    font-family: FuturaLt, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-size: 140%;
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
